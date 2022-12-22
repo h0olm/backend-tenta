@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Results ({selected, closePopup}) {
+function Popup ({selected, closePopup}) {
     return (   
         <section className='popup'>
             <div className='content'>
@@ -17,4 +17,4 @@ function Results ({selected, closePopup}) {
 
 }
 
-export default Results
+export default Popup
