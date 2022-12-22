@@ -69,6 +69,7 @@ function App() {
       </header>
       <main>
         <Search handleInput={handleInput} search={search} />
+        <h1 className='ratedText'>Top Rated Movies</h1>
         <TopMovies />
         <Results results={state.results} openPopup={openPopup} />
         {typeof state.selected.title !== 'undefined' ? (
@@ -76,6 +77,9 @@ function App() {
         ) : (
           false
         )}
+              <div className="recentText">
+        <h2>Recently Viewed</h2>
+      </div>
         <RecentlyViewed recentlyViewed={state.recentlyViewed} />
       </main>
     </div>

@@ -3,9 +3,7 @@ import React from "react";
 function RecentlyViewed({ recentlyViewed, openPopup }) {
   return (
     <div className="recently-viewed" style={{ overflowX: 'scroll', overflowY: 'hidden' }}>
-      <div className="recentText">
-        <h2>Recently Viewed</h2>
-      </div>
+
       <div className="recently-viewed-card">
         <ul className="recently-viewed-list">
           {recentlyViewed.map((movie) => (

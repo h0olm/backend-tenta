@@ -15,6 +15,7 @@ const TopMovies = () => {
   }, []);
 
   return (
+
     <div className="top-movies" style={{ overflowX: 'scroll', overflowY: 'hidden' }}>
       {movies.map((movie) => (
         <div key={movie.id} className="ratedCard">

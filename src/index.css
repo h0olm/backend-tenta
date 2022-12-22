@@ -237,5 +237,14 @@ section {
 }
 
 .recentText {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 20px;
   color: white;
+}
+
+.ratedText{
+	margin-top: 20px;
+	color: white;
+	text-align: center;
 }
